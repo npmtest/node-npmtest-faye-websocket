@@ -1,4 +1,7 @@
-# test coverage for  [faye-websocket (v0.11.1)](https://github.com/faye/faye-websocket-node)  [![npm package](https://img.shields.io/npm/v/npmtest-faye-websocket.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-faye-websocket) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-faye-websocket.svg)](https://travis-ci.org/npmtest/node-npmtest-faye-websocket)
+# npmtest-faye-websocket
+
+#### basic test coverage for  [faye-websocket (v0.11.1)](https://github.com/faye/faye-websocket-node)  [![npm package](https://img.shields.io/npm/v/npmtest-faye-websocket.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-faye-websocket) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-faye-websocket.svg)](https://travis-ci.org/npmtest/node-npmtest-faye-websocket)
+
 #### Standards-compliant WebSocket server and client
 
 [![NPM](https://nodei.co/npm/faye-websocket.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/faye-websocket)
@@ -7,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-faye-websocket/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-faye-websocket/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-faye-websocket/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-faye-websocket/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-faye-websocket/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-faye-websocket/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-faye-websocket/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-faye-websocket/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-faye-websocket/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-faye-websocket/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-faye-websocket/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-faye-websocket/build/coverage.html/index.html)
 
@@ -78,7 +81,8 @@
     "scripts": {
         "test": "jstest spec/runner.js"
     },
-    "version": "0.11.1"
+    "version": "0.11.1",
+    "bin": {}
 }
 ```
 
